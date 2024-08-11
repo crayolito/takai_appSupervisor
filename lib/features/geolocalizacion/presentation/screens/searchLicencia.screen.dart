@@ -294,7 +294,7 @@ class ItemLicencia extends StatelessWidget {
                         width: size.width * 0.02,
                       ),
                       Text(
-                        licencia.propietario,
+                        licencia.nroLicencia,
                         textAlign: TextAlign.start,
                         style: estilosText!.subTituloItemPC,
                         maxLines: 1,
